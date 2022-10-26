@@ -8,14 +8,15 @@ let arrayFirst = [1,2,3,4,5,];
 let arraySecond = [];
 
 let number = 0;
- number = Math.floor(Math.random() * 10);
+
 
 
 let differenzaArray = arrayFirst.length - arraySecond.length;
 
 for ( i = 0; i < differenzaArray ; i++ ){
+    number = Math.floor(Math.random() * 10);
+    arraySecond.push(number);
     
-    arraySecond[i] = arraySecond.push(number);
 
 
 }
